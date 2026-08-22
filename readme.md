@@ -1,4 +1,6 @@
-- Built for Antigravity CLI
+- Built for Antigravity CLI.
+- To make it work, add your Upstox Analysis API key in @run_routine.js.
+- Then, copy and paste the prompt given below in CLI environment while tagging the skill file.
 
 Morning Prompt v5:
 ```
