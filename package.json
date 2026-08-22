@@ -1,0 +1,18 @@
+{
+  "name": "trading-catalyst-routine",
+  "version": "2.4.0",
+  "description": "Morning Catalyst Routine — Upstox API Edition. Replaces Playwright/Yahoo Finance with direct Upstox REST API calls.",
+  "main": "run_routine.js",
+  "scripts": {
+    "start": "node run_routine.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "notes": "Uses native fetch (Node 18+). No external HTTP deps required. Set UPSTOX_ACCESS_TOKEN in env before running."
+}
